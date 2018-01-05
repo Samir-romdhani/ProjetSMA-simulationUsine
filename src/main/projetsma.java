@@ -84,7 +84,7 @@ public class projetsma {
       agent = anotherContainer.createNewAgent("ControllerAgent", "Agents.ControllerAgent", null);
       agent.start();
       Thread.sleep(900);    
-*/
+
       anotherProfile = new ProfileImpl(false);
       anotherContainer = runTime.createAgentContainer(anotherProfile);
       System.out.println("Starting up a Production...");
@@ -98,7 +98,7 @@ public class projetsma {
       agent = anotherContainer.createNewAgent("Clients", "Agents.Client", null);
       agent.start();
       Thread.sleep(900);
-      
+  */    
     
      
       /*
@@ -149,8 +149,8 @@ public class projetsma {
       String[] args5 = {"-gui","Acheteur:Agents.Acheteur"};
       String[] args6 = {"-container","Vendeur:Agents.Vendeur"};
       String[] args7 = {"-container","Portail:Agents.Portail"};
-      //jade.Boot.main(args2);
-      //jade.Boot.main(args3);
+      jade.Boot.main(args2);
+      jade.Boot.main(args3);
      
    
       
