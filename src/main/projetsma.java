@@ -31,7 +31,7 @@ public class projetsma {
 
       final Runtime runTime = Runtime.instance();
 
-/*
+
       runTime.setCloseVM(true);
       Profile mainProfile = new ProfileImpl(true);
       AgentContainer mainContainer = runTime.createMainContainer(mainProfile);
@@ -46,7 +46,7 @@ public class projetsma {
       AgentContainer anotherContainer;
       AgentController agent;
       AgentController agent2;
-*/
+
 
       
   /*   
@@ -113,20 +113,9 @@ public class projetsma {
       String[] args2 = {"-gui","Atelier:Agents.Atelier"};
       String[] args3 = {"-container","Client:Agents.Client"};
       String[] args4 = {"-container","Atelier:Agents.Atelier"};
-      //jade.Boot.main(args2);
-      //jade.Boot.main(args3);
-      
-      //jade.Boot.main(args4);
-      
-      String[] args5 = {"-gui","Acheteur:Agents.Acheteur"};
-      String[] args6 = {"-container","Vendeur:Agents.Vendeur"};
-      String[] args7 = {"-container","Portail:Agents.Portail"};
       jade.Boot.main(args2);
       jade.Boot.main(args3);
      
-   
-      
-
 	}
 
 }
