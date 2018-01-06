@@ -30,6 +30,8 @@ public class projetsma {
 //      System.out.println(driver.getDateOut());
 
       final Runtime runTime = Runtime.instance();
+
+/*
       runTime.setCloseVM(true);
       Profile mainProfile = new ProfileImpl(true);
       AgentContainer mainContainer = runTime.createMainContainer(mainProfile);
@@ -44,37 +46,7 @@ public class projetsma {
       AgentContainer anotherContainer;
       AgentController agent;
       AgentController agent2;
-     
-
-      
-      List<Produits> listP1 = new ArrayList<>(); 
-      List<Produits> listP2 = new ArrayList<>();
-      List<Produits> listP3 = new ArrayList<>();
-      Produits p1 = new Produits("Table", 20, 4, 5) ;
-      Produits p2 = new Produits("Chaise", 120, 4, 2) ;
-      Produits p3 = new Produits("Buffet", 20, 4, 6) ;
-      listP1.add(p1) ;
-      listP2.add(p2) ;
-      listP3.add(p3) ;
-      Atelier Atelier1 = new Atelier(1, listP1);
-      /////////////////////////
-      Produits p4 = new Produits("Lit", 10, 2, 7) ;
-      Produits p5 = new Produits("Chevet", 20, 2, 1) ;
-      Produits p6 = new Produits("Armoire", 10, 2, 8) ;
-      listP2.add(p4) ;
-      listP2.add(p5) ;
-      listP2.add(p6) ;
-      Atelier Atelier2 = new Atelier(2, listP2) ;
-     ////////////////////////////////////////
-      Produits p7 = new Produits("Banquette", 20, 3, 6) ;
-      Produits p8 = new Produits("Fauteuil", 120, 3, 3) ;
-      Produits p9 = new Produits("Etagère", 20, 3, 8) ;
-      listP3.add(p7) ;
-      listP3.add(p8) ;
-      listP3.add(p9) ;
-      Atelier Atelier3 = new Atelier(2, listP3) ;
-      
-      //System.out.println("-----------------"+Atelier1.getProduitList().get(0).getfornisseur());
+*/
 
       
   /*   
